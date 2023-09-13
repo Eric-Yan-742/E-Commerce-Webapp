@@ -1,0 +1,20 @@
+.center-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
+}
+
+/* Style the image as needed */
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed the screen width */
+    max-height: 100%; /* Ensure the image doesn't exceed the screen height */
+}
+
+a {
+    position: fixed;
+}

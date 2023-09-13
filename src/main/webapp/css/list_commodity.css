@@ -1,0 +1,50 @@
+.search-center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-container {
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+}
+.search-text {
+    flex: 1;
+    margin-right: 10px;
+
+    height: 40px; /* Adjust the height as needed */
+    font-size: 20px;
+}
+.material-symbols-outlined {
+    font-size: 23px;
+}
+
+.table-center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    width: 60%;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: center; /* Horizontally center-align text */
+    vertical-align: middle; /* Vertically center-align text */
+}
+td {
+    padding: 0.5em;
+}
+th {
+    padding: 0.5em;
+}
+.buy-button {
+    margin-block-end: 0em;
+}
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+.header-row {
+    background-color: antiquewhite;
+}

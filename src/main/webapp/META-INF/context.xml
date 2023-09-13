@@ -1,0 +1,9 @@
+<Context>
+    <!-- name is an alias, not actual directory -->
+    <Resource name="jdbc/shopping_website"
+              auth="Container" type="javax.sql.DataSource"
+              maxActive="20" maxIdle="5" maxWait="10000"
+              username="webECommerce" password="webECommerce"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/shopping_website?useSSL=false&amp;serverTimezone=UTC"/>
+</Context>
